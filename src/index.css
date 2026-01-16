@@ -12,7 +12,6 @@ header {
   width: 70%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  padding: 10px 0;
 }
 
 .navbar {
@@ -22,11 +21,15 @@ header {
 }
 
 h4 {
-  padding: 50px 0;
+  padding: 45px 0;
+}
+
+.navbar h4 {
+  border-bottom: 3px solid transparent;
 }
 
 .navbar h4:hover {
-  border-bottom: solid 4px rgb(57, 116, 255);
+  border-bottom: 3px solid rgb(57, 116, 255);
 }
 
 /* MAIN */
@@ -34,14 +37,60 @@ main {
   background-color: black;
   color: white;
   font-family: 'Open Sans', sans-serif;
+}
+
+.fascia-nera {
   padding: 50px 0;
 }
+
+.fascia-azzurra {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(57, 116, 255);
+  padding: 30px 15%;
+}
+
+.fascia-azzurra a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+} 
 
 /* FOOTER */
 footer {
   background-image: url(./assets/img/footer-bg.jpg);
   color: white;
   font-family: 'Open Sans', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.footer-text {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-text-col {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%; 
+  line-height: 1.7;
+}
+
+.footer-text-col h3 {
+  font-size: 0.8rem;
+  padding-bottom: 6px;
+}
+
+.footer-text-col a {
+  font-size: 0.6rem;
+  color: rgb(145, 145, 145);
 }
 
 .centratura-contenuto {
@@ -54,6 +103,30 @@ footer a {
   text-decoration: none;
 } 
 
-.CTA-social {
+.CTA-social { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-gray {
   background-color: rgb(59, 59, 59);
+  padding: 30px 0;
+}
+
+.CTA-social-dx {
+  display: flex;
+  gap: 20px;
+}
+
+.CTA-social-dx h3 {
+  color: rgb(57, 116, 255);
+  font-weight: 600;
+}
+
+footer button {
+  border: solid 2px rgb(57, 116, 255);
+  color: white;
+  background-color: rgb(59, 59, 59);
+  padding: 10px;
 }
