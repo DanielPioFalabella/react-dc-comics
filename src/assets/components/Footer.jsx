@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-img">
-                    <img src="./assets/img/dc-logo-bg.png" alt="background con logo DC" />
+                    <img src="./src/assets/img/dc-logo-bg.png" alt="background con logo DC" />
                 </div>
             </div>
             <div className="bg-gray">
@@ -53,11 +53,11 @@ const Footer = () => {
                         <button>SIGN-UP NOW!</button>
                         <div className="CTA-social-dx">
                             <h3>FOLLOW US</h3>
-                            <img src="./assets/img/footer-facebook.png" alt="Facebook" />
-                            <img src="./assets/img/footer-twitter.png" alt="Twitter" />
-                            <img src="./assets/img/footer-youtube.png" alt="YouTube" />
-                            <img src="./assets/img/footer-pinterest.png" alt="Pinteres" />
-                            <img src="./assets/img/footer-periscope.png" alt="Periscope" />
+                            <img src="./src/assets/img/footer-facebook.png" alt="Facebook" />
+                            <img src="./src/assets/img/footer-twitter.png" alt="Twitter" />
+                            <img src="./src/assets/img/footer-youtube.png" alt="YouTube" />
+                            <img src="./src/assets/img/footer-pinterest.png" alt="Pinteres" />
+                            <img src="./src/assets/img/footer-periscope.png" alt="Periscope" />
                         </div>
                     </div>
                 </div>
