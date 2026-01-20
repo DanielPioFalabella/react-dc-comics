@@ -28,8 +28,12 @@ const comics = [
         series: "American Vampire 1976",
         sale_date: "2020-10-06",
         type: "comic book",
-        artists: ["Rafael Albuquerque"],
-        writers: ["Scott Snyder"]
+        artists: [
+            "Rafael Albuquerque"
+        ],
+        writers: [
+            "Scott Snyder"
+        ]
     },
     {
         id: 3,
@@ -40,8 +44,12 @@ const comics = [
         series: "Aquaman",
         sale_date: "2018-01-24",
         type: "graphic novel",
-        artists: ["Stjepan Sejic"],
-        writers: ["Dan Abnett"]
+        artists: [
+            "Stjepan Sejic"
+        ],
+        writers: [
+            "Dan Abnett"
+        ]
     },
     {
         id: 4,
@@ -52,8 +60,12 @@ const comics = [
         series: "Batgirl",
         sale_date: "2016-07-27",
         type: "comic book",
-        artists: ["Rafael Albuquerque"],
-        writers: ["Hope Larson"]
+        artists: [
+            "Rafael Albuquerque"
+        ],
+        writers: [
+            "Hope Larson"
+        ]
     },
     {
         id: 5,
@@ -64,8 +76,12 @@ const comics = [
         series: "Batman",
         sale_date: "2018-10-03",
         type: "comic book",
-        artists: ["Tony S. Daniel"],
-        writers: ["Tom King"]
+        artists: [
+            "Tony S. Daniel"
+        ],
+        writers: [
+            "Tom King"
+        ]
     },
     {
         id: 6,
@@ -76,8 +92,12 @@ const comics = [
         series: "Batman Beyond",
         sale_date: "2016-10-26",
         type: "comic book",
-        artists: ["Bernard Chang"],
-        writers: ["Dan Jurgens"],
+        artists: [
+            "Bernard Chang"
+        ],
+        writers: [
+            "Dan Jurgens"
+        ],
     },
     {
         id: 7,
@@ -88,8 +108,12 @@ const comics = [
         series: "Batman/Superman",
         sale_date: "2019-08-28",
         type: "comic book",
-        artists: ["David Marquez"],
-        writers: ["Joshua Williamson"],
+        artists: [
+            "David Marquez"
+        ],
+        writers: [
+            "Joshua Williamson"
+        ],
     },
     {
         id: 8,
@@ -100,8 +124,14 @@ const comics = [
         series: "Batman/Superman Annual",
         sale_date: "2020-09-29",
         type: "comic book",
-        artists: ["Clayton Henry", "Gleb Melnikov", "Dale Eaglesham"],
-        writers: ["Joshua Williamson"],
+        artists: [
+            "Clayton Henry",
+            "Gleb Melnikov",
+            "Dale Eaglesham"
+        ],
+        writers: [
+            "Joshua Williamson"
+        ],
     },
     {
         id: 9,
@@ -112,8 +142,18 @@ const comics = [
         series: "Batman: The Joker War Zone",
         sale_date: "2020-09-29",
         type: "comic book",
-        artists: ["Guillem March", "Ashley A. Woods", "Olivier Coipel", "James Stokoe", "Darko Lafuente"],
-        writers: ["Sam Johns", "Joshua Williamson", "John Ridley"],
+        artists: [
+            "Guillem March",
+            "Ashley A. Woods",
+            "Olivier Coipel",
+            "James Stokoe",
+            "Darko Lafuente"
+        ],
+        writers: [
+            "Sam Johns",
+            "Joshua Williamson",
+            "John Ridley"
+        ],
     },
     {
         id: 10,
@@ -124,8 +164,12 @@ const comics = [
         series: "Batman: Three Jokers",
         sale_date: "2020-08-25",
         type: "comic book",
-        artists: ["Jason Fabok"],
-        writers: ["Geoff Johns"],
+        artists: [
+            "Jason Fabok"
+        ],
+        writers: [
+            "Geoff Johns"
+        ],
     },
     {
         id: 11,
@@ -136,8 +180,12 @@ const comics = [
         series: "Batman: White Knight Presents: Harley Quinn",
         sale_date: "2020-10-20",
         type: "comic book",
-        artists: ["Matteo Scalera"],
-        writers: ["Katana Collins"],
+        artists: [
+            "Matteo Scalera"
+        ],
+        writers: [
+            "Katana Collins"
+        ],
     },
     {
         id: 12,
@@ -148,8 +196,13 @@ const comics = [
         series: "Catwoman",
         sale_date: "2019-04-10",
         type: "graphic novel",
-        artists: ["Fernando Blanco", "Joëlle Jones"],
-        writers: ["Joëlle Jones"],
+        artists: [
+            "Fernando Blanco",
+            "Joëlle Jones"
+        ],
+        writers: [
+            "Joëlle Jones"
+        ],
     },
 ];
 

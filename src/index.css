@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/* UTILITY */
+.centratura-contenuto {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px;
+  background-color: rgb(57, 116, 255);
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -16,8 +30,19 @@ header {
 
 .navbar {
   display: flex;
-  gap: 1rem;
   font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+}
+
+.active {
+  color: rgb(57, 116, 255);
 }
 
 .navbar h4 {
@@ -51,10 +76,27 @@ main {
   background-color: black;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  position: relative;
 }
 
 .fascia-nera {
   padding: 50px 0;
+}
+
+.btn-current-series {
+  padding: 10px 20px;
+  font-size: 1rem;
+  position: absolute;
+  top: -20px;
+  left: 14%;
+}
+
+.btn-load-more {
+  padding: 10px 30px;
+  font-size: 0.6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 /* COMICS CARD */
@@ -62,6 +104,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .comics-card {
@@ -105,8 +148,6 @@ footer {
   background-image: url(./assets/img/footer-bg.jpg);
   color: white;
   font-family: 'Open Sans', sans-serif;
-  position: relative;
-  overflow: hidden;
 }
 
 .footer-container {
@@ -114,6 +155,8 @@ footer {
   justify-content: space-between;
   padding-top: 30px;
   padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
 }
 
 .footer-text {
@@ -139,11 +182,6 @@ footer {
   color: rgb(145, 145, 145);
 }
 
-.centratura-contenuto {
-  width: 70%;
-  margin: 0 auto;
-}
-
 footer a {
   color: white;
   text-decoration: none;
@@ -157,7 +195,7 @@ footer a {
 
 .bg-gray {
   background-color: rgb(59, 59, 59);
-  padding: 30px 0;
+  padding: 24px 0;
 }
 
 .CTA-social-dx {
@@ -182,9 +220,9 @@ footer button {
   overflow: hidden;
 
   img {
-    max-width: 450px;
+    max-width: 480px;
     position: absolute;
-    right: 15%;
-    top: -20%;
+    right: 1%;
+    top: -30%;
   }
 }
